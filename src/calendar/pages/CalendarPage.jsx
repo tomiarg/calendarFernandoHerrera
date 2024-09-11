@@ -1,4 +1,4 @@
-import { NavBar, CalendarEvent, CalendarModal, FabAddNew} from "../"
+import { NavBar, CalendarEvent, CalendarModal, FabAddNew, FabDelete} from "../"
 
 import { Calendar,} from 'react-big-calendar'
 import { localizer, getMessages } from "../../helpers"
@@ -65,6 +65,7 @@ export const CalendarPage = () => {
       />
       <CalendarModal/>
       <FabAddNew/>
+      <FabDelete/>
     
      </div>
     </>
